@@ -5,6 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
   root: 'client',
+  base: '/guardioesdoxingujogo/',
   plugins: [
     react(), 
     tailwindcss(),
