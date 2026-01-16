@@ -1,0 +1,26 @@
+node_modules
+dist
+client/dist
+client/dev-dist
+.env
+.env.local
+.DS_Store
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vite
+.cache
+build
+coverage
+.nyc_output
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.local
+
+# Attached assets (duplicates - originals are in public/)
+attached_assets/
